@@ -1,0 +1,48 @@
+# ======================
+# Python / Django
+# ======================
+__pycache__/
+*.py[cod]
+*.sqlite3
+db.sqlite3
+*.log
+.env
+venv/
+backend/venv/
+
+# Django static/media
+staticfiles/
+media/
+
+# ======================
+# Node / React
+# ======================
+node_modules/
+build/
+frontend/node_modules/
+frontend/build/
+
+# ======================
+# Environment files
+# ======================
+.env
+.env.*
+
+# ======================
+# Docker
+# ======================
+*.pid
+*.seed
+*.sock
+docker-data/
+
+# ======================
+# VS Code
+# ======================
+.vscode/
+
+# ======================
+# OS Files
+# ======================
+.DS_Store
+Thumbs.db
